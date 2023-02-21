@@ -122,7 +122,7 @@ data={
     "city":"Kathmandu",
     "country":"NP"
 }
-r.post("http://159.65.92.208:30533"+weatherApiEndPoint,data=data)
+r.post("http://159.65.92.208:30533/api/weather",data=data)
 ```
 
 Then, I logged in with username 'admin' and password 'password' and got the flag :)
